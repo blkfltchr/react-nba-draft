@@ -1,0 +1,84 @@
+/* Card styles */
+
+.card-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px
+}
+
+/* Header styles */
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    width: 400px
+}
+
+.header-image {
+    width: 70%;
+    height: auto
+}
+
+@media (max-width: 936px) {
+    .header-image {
+        width: 95%;
+    }  
+}
+
+.team {
+    text-align: center;
+}
+
+.player-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.draft-info {
+    margin: 10px 0;
+}
+
+/* Video styles */
+
+.video-wrapper {
+    width: 426px; 
+    height: 260px
+}
+
+/* Info styles */
+
+.info-wrapper {
+    padding: 20px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.stats {
+    margin: 10px;
+}
+
+.description {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.comparison {
+    margin: 10px;
+}
